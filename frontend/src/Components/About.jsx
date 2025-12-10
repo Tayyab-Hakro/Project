@@ -2,11 +2,13 @@ import React from 'react'
 import VideoFile from '../assets/3.mp4'
 import item1 from "../assets/Item.png"
 import item2 from "../assets/Item1.png"
+import Card1 from "../assets/Card1.png"
+import Card2 from "../assets/Card2.png"
 
 function About() {
   return (
     <>
-      <div className='w-full   full mt-20 relative bg-[]'>
+      <div className='w-full border   full mt-20 relative bg-[]'>
         <div className="absolute w-[95%] sm:w-[90%] md:w-[80%] h-min-screen 
                         -top-10 md:-top-16 lg:-top-20 
                         right-0 md:right-20 lg:right-40 
@@ -39,10 +41,10 @@ function About() {
      <div className=' w-full h-full flex justify-center items-center gap-6 mt-[55rem] '>
 
   </div>
-<div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-10 w-full">
+<div className="flex border w-full md:flex-row justify-between bg-red-300 rounded items-center gap-6 ">
 
   {/* LEFT SIDE */}
-  <div className="w-full md:w-1/2 space-y-4">
+  <div className="w-[50%] md:w-1/2 space-y-4">
     <p className="text-2xl font-semibold">AI Skin Anal</p>
 
     <p className="text-gray-700 leading-relaxed">
@@ -60,10 +62,10 @@ function About() {
   </div>
 
   {/* RIGHT SIDE */}
-  <div className="w-full md:w-1/2 flex justify-center">
-  <div>
-    <img src={item1}  alt=''/>
-    <img src={item2}  alt=''/>
+  <div className="w-[50%] border-r-amber-400 md:w-1/2 flex justify-center relative">
+  <div className='flex absolute'>
+    <img src={Card1}  alt=''/>
+    <img src={Card2}  alt=''/>
 
   </div>
   </div>
